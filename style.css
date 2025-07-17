@@ -1,16 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     background-color: white; 
     font-family: "Roboto", sans-serif;
 }
 .hero{
     background-color: #1F2937;
-    padding: 0 250px;
+    padding:0 250px;
+    padding-top: 20px;
     color: white;
 }
 head{
     font-size:48px;
     font-weight: 900;
     color:#F9FAF8;
+    
 }
 .logo{
     font-size: 24px;
@@ -50,10 +58,17 @@ button{
     font-weight:bold;
     border:none;
     border-radius:10px;
+    margin-top: 20px;
+    width: 200px
+    
 }
 .text{
+    display:flex;
+    flex-direction: column;
     max-width: 400px;
     flex:1;
+    margin-bottom: 10px;
+   
 }
 .img{
     flex: 1;
